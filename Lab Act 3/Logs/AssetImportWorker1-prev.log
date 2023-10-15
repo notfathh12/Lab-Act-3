@@ -1,0 +1,519 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7598 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/TUGAS/03 SEM 3/PTG/Lab Act 3/Lab Act 3
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+12316
+Successfully changed project path to: D:/TUGAS/03 SEM 3/PTG/Lab Act 3/Lab Act 3
+D:/TUGAS/03 SEM 3/PTG/Lab Act 3/Lab Act 3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21880] Host "[IP] 192.168.110.167 [Port] 0 [Flags] 2 [Guid] 3473223024 [EditorId] 3473223024 [Version] 1048832 [Id] WindowsEditor(7,notfathh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21880] Host "[IP] 192.168.110.167 [Port] 0 [Flags] 2 [Guid] 3473223024 [EditorId] 3473223024 [Version] 1048832 [Id] WindowsEditor(7,notfathh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 13.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/TUGAS/03 SEM 3/PTG/Lab Act 3/Lab Act 3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3758
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008915 seconds.
+- Loaded All Assemblies, in  0.773 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.831 seconds
+Domain Reload Profiling: 1604ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (244ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (833ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (688ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (31ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (432ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.788 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.369 seconds
+Domain Reload Profiling: 3156ms
+	BeginReloadAssembly (361ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1264ms)
+		LoadAssemblies (1107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (384ms)
+			TypeCache.Refresh (300ms)
+				TypeCache.ScanAssembly (244ms)
+			ScanForSourceGeneratedMonoScriptInfo (62ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1370ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1030ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (809ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 5.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (219.6 KB). Loaded Objects now: 4840.
+Memory consumption went from 144.3 MB to 144.1 MB.
+Total: 9.664500 ms (FindLiveObjects: 1.336700 ms CreateObjectMapping: 0.367300 ms MarkObjects: 7.420300 ms  DeleteObjects: 0.535200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 109014.619541 seconds.
+  path: Assets/Input Test.asset
+  artifactKey: Guid(bd08faf29602f0f46b96dc4a8877adf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Input Test.asset using Guid(bd08faf29602f0f46b96dc4a8877adf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f31a2e18a78b75d9a14342089fcc8205') in 1.284178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Death/Death_03.png
+  artifactKey: Guid(cb7525def6ae9cd438a96e45c83b4d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Death/Death_03.png using Guid(cb7525def6ae9cd438a96e45c83b4d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c186c22dcd0f360ff5a212921672ca1') in 0.299480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Death/Death_07.png
+  artifactKey: Guid(ee776a8970abee748b44917dfa29d3f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Death/Death_07.png using Guid(ee776a8970abee748b44917dfa29d3f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de9c41db553b579c04ee4601660adedc') in 0.158823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Walk/Walk_01.png
+  artifactKey: Guid(107267e79954c4046b075b794e4efee9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Walk/Walk_01.png using Guid(107267e79954c4046b075b794e4efee9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4032300567c29e4a3a21697a7d3c90c8') in 0.073681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Jump/Jump_3.png
+  artifactKey: Guid(05ee54bef55dd1246a05145f51ce4768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Jump/Jump_3.png using Guid(05ee54bef55dd1246a05145f51ce4768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c911ba6bbe01a88daf99e7432f1b5190') in 0.123560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/LAB ACT 3_COPY.unity
+  artifactKey: Guid(b09d1d31ab147aa47850656a4419d161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LAB ACT 3_COPY.unity using Guid(b09d1d31ab147aa47850656a4419d161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8db909416f3ccee463b7b870e48578e7') in 0.051639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Icy Ascent Assets/Tree-2.png
+  artifactKey: Guid(b095f0ff0f794bd4aba83e1d9ad554bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Icy Ascent Assets/Tree-2.png using Guid(b095f0ff0f794bd4aba83e1d9ad554bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8dc9ff1271382391b0544ff524fd66ad') in 0.142147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Idle/Idle_08.png
+  artifactKey: Guid(a19eecc9d52565243843c9f60b4606ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Idle/Idle_08.png using Guid(a19eecc9d52565243843c9f60b4606ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d48916ffc1aa3cb37139fbfe9badeec') in 0.137190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Walk/Walk_06.png
+  artifactKey: Guid(46f57f46222167644a80a60e23264c8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Walk/Walk_06.png using Guid(46f57f46222167644a80a60e23264c8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02c814b1511db5eed89a856249b7cf82') in 0.114336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Jump/Jump_2.png
+  artifactKey: Guid(6ed56ddcb9f3529408ca2c74141e40f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Jump/Jump_2.png using Guid(6ed56ddcb9f3529408ca2c74141e40f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2038192aa45fb5388c7ef433d2a30dcf') in 0.127524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Level One.unity
+  artifactKey: Guid(3a1a4316c76e12a49bae6530d53b7d62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Level One.unity using Guid(3a1a4316c76e12a49bae6530d53b7d62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15a2b3a51b5e5e5695065040a4686d94') in 0.038530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Idle/Idle_03.png
+  artifactKey: Guid(a8ad4a48083f69842866c430ea74b89f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Idle/Idle_03.png using Guid(a8ad4a48083f69842866c430ea74b89f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64b9d368f2e9901771a1124c690c104b') in 0.099699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Jump/Jump_1.png
+  artifactKey: Guid(2e8c1e3f7c701214084b91a78a9a4d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Jump/Jump_1.png using Guid(2e8c1e3f7c701214084b91a78a9a4d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22e3a26e43bdb32620ebbca2a0a46e8c') in 0.085046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Death/Death_05.png
+  artifactKey: Guid(94e149d5a27a71e478df7c4667da17e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Death/Death_05.png using Guid(94e149d5a27a71e478df7c4667da17e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ebcb5666afbb7fa7a18077e6f7e9b6a') in 0.089491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Icy Ascent Assets/Background.png
+  artifactKey: Guid(0a9868501b3047c408691085c818a9a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Icy Ascent Assets/Background.png using Guid(0a9868501b3047c408691085c818a9a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e80942810b60f1fba202be3ff13849da') in 0.098977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Death/Death_01.png
+  artifactKey: Guid(04a4ad3e4e4ae74449ad30d8883c7950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Death/Death_01.png using Guid(04a4ad3e4e4ae74449ad30d8883c7950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b2c2cb2a8847fc27822224bb190ae91') in 0.095482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Idle/Idle_01.png
+  artifactKey: Guid(01abd31e7d2cf55479eb0813298716cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Idle/Idle_01.png using Guid(01abd31e7d2cf55479eb0813298716cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6be8cdf60c5b47dd414dffeb2284383f') in 0.103531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Death/Death_09.png
+  artifactKey: Guid(a9362c92ec5ef074390524aab5f4a7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Death/Death_09.png using Guid(a9362c92ec5ef074390524aab5f4a7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2706b37dbf2ac8b321b203457d59afd0') in 0.154718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Icy Ascent Assets/Cloud-1.png
+  artifactKey: Guid(b229ad57a3b009c458347866cba056b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Icy Ascent Assets/Cloud-1.png using Guid(b229ad57a3b009c458347866cba056b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a75970dc61ed71c79892c6b6f618cc57') in 0.151576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Idle/Idle_13.png
+  artifactKey: Guid(f5cfeb7391472694f8ac441756400fd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Idle/Idle_13.png using Guid(f5cfeb7391472694f8ac441756400fd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c8079182a2cb0595482d350609276b1') in 0.112128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Jump/Jump_6.png
+  artifactKey: Guid(00996752d5cd42a43acdba05a6c4d09f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Jump/Jump_6.png using Guid(00996752d5cd42a43acdba05a6c4d09f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc3c530b1953ed344d6d0ecb0164e9ec') in 0.137870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1ad1d04918770e4272e6f74d28acc96') in 0.054366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Icy Ascent Assets/Fill.png
+  artifactKey: Guid(75c6cb2c80f69b64d848ce8663761972) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Icy Ascent Assets/Fill.png using Guid(75c6cb2c80f69b64d848ce8663761972) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57b22dda2808a76a6ee7f9ddc1916541') in 0.122098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Walk Animation.anim
+  artifactKey: Guid(75f4adc57ea78ed42b3cc58c5968bacf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Walk Animation.anim using Guid(75f4adc57ea78ed42b3cc58c5968bacf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76c07de3a654257b5c9ea5ede6482693') in 0.088270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Walk/Walk_08.png
+  artifactKey: Guid(b1ab2d0126b25804f97e4b41fdf74b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Walk/Walk_08.png using Guid(b1ab2d0126b25804f97e4b41fdf74b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7d0c8d26db30f8508109801fa1370c3') in 0.090246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Idle/Idle_04.png
+  artifactKey: Guid(b6501cbb9a4bcf9499e9c1e58d3569cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Idle/Idle_04.png using Guid(b6501cbb9a4bcf9499e9c1e58d3569cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51379a2adc235f1b8f0978a2fdf1b737') in 0.115060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Icy Ascent Assets/Cloud-2.png
+  artifactKey: Guid(4f877ab4f0b22ea4fb24abbde6401bbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Icy Ascent Assets/Cloud-2.png using Guid(4f877ab4f0b22ea4fb24abbde6401bbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '940bccf10afcce83b55686e2b401655f') in 0.133111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Icy Ascent Assets/Rock-1.png
+  artifactKey: Guid(85b106fa853491e4c983a02923842cfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Icy Ascent Assets/Rock-1.png using Guid(85b106fa853491e4c983a02923842cfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bfce4367e6c1bf936463345c26693b7') in 0.130302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Icy Ascent Assets/Ice Cave.png
+  artifactKey: Guid(eba7e8456809e214ca36e1d9de78f304) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Icy Ascent Assets/Ice Cave.png using Guid(eba7e8456809e214ca36e1d9de78f304) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3228a3f5922470591d5623f594452554') in 0.134551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Death/Death_00.png
+  artifactKey: Guid(95e4b74f6c891f14da14ffa29573f95f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Death/Death_00.png using Guid(95e4b74f6c891f14da14ffa29573f95f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e58adf0948ae97f432a40121b223b0ce') in 0.127917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.034027 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Idle Animation.anim
+  artifactKey: Guid(994cc128bb95b9649a4fa33a23c0982d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Idle Animation.anim using Guid(994cc128bb95b9649a4fa33a23c0982d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cded65119fa48beb16c5a66eb022a1b') in 0.055773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Death/Death_06.png
+  artifactKey: Guid(b4a54a5b4b496a54eb2c90aada7455f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Death/Death_06.png using Guid(b4a54a5b4b496a54eb2c90aada7455f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e9d518fdfc76b8aab537dd250f99eb3') in 0.096475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Death/Death_16.png
+  artifactKey: Guid(e087ee1980d67c546a8d4a6652a3c4a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Death/Death_16.png using Guid(e087ee1980d67c546a8d4a6652a3c4a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca0c3855676323eba23c92b472ca2692') in 0.094641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Icy Ascent Assets/Tree-1.png
+  artifactKey: Guid(547e386794b941e41acaa1228fc05647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Icy Ascent Assets/Tree-1.png using Guid(547e386794b941e41acaa1228fc05647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cab30a05fd33ac2b5c0d19ed04b7adf') in 0.136262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+  artifactKey: Guid(a57201efd9676df479729200b63708a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db using Guid(a57201efd9676df479729200b63708a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8392f8ffa8995fe53d8ab2eafba10ec0') in 0.067839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Penguin Player Assets/Sprites/Walk/Walk_05.png
+  artifactKey: Guid(a053474fc898687459e6cdd4eb6f5d6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Penguin Player Assets/Sprites/Walk/Walk_05.png using Guid(a053474fc898687459e6cdd4eb6f5d6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1f4e120adbef68ba353e5791ccbf772') in 0.126152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Icy Ascent Assets/Right-Wall.png
+  artifactKey: Guid(c8f796bfb87ab7047ba19eaedc8ebc21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Icy Ascent Assets/Right-Wall.png using Guid(c8f796bfb87ab7047ba19eaedc8ebc21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1245a30ceb18415c4e1187cb0df43356') in 0.123038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
